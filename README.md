@@ -6,7 +6,7 @@
 
 <div>
 <h3 align="left" >About Me:</h3>
-<img src="https://cdn.dribbble.com/users/1365253/screenshots/11419536/final_shots_for_gif.gif" height="200px" align="right" style="vertical-align:top">
+<img src="img.gif" height="200px" align="right" style="vertical-align:top">
 
 * 👨‍🎓 Currently, a Ph.D. student at University of Science and Technology 🏛️.
 * 👨‍💻 Working as a researcher in Artificial Intelligence Center at Korea Institute of Science and Technology 🏛️.
