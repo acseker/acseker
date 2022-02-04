@@ -2,7 +2,7 @@
 <img src="cover.gif" height="260px" align="middle">
 
 [//]: # (<h1 align="center">Hi there <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I'm Cagatay.</h1>)
-<br>
+<!-- <br> -->
 
 <div>
 <h3 align="left" >About Me:</h3>
