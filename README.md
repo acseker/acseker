@@ -1,5 +1,5 @@
 <br>
-<img src="cover.gif" height="260px" text-align="center">
+<img src="cover.gif" height="260px"; display="block"; text-align="center">
 
 [//]: # (<h1 align="center">Hi there <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I'm Cagatay.</h1>)
 <!-- <br> -->
