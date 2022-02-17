@@ -1,5 +1,7 @@
 <br>
-<img src="cover.gif" height="260px"; style="display:block; text-align:center">
+<div style="display: flex; justify-content: center;">
+  <img src="cover.gif" height="260px"; style="display:block; text-align:center">
+</div>
 
 [//]: # (<h1 align="center">Hi there <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I'm Cagatay.</h1>)
 <!-- <br> -->
