@@ -8,7 +8,7 @@
 <div>
   <h3 align="left" >About Me:</h3>
   <!--   <img src="https://cdn.dribbble.com/users/1365253/screenshots/11419536/final_shots_for_gif.gif" height="200px" align="right" style="vertical-align:top"> -->
-    <img src="img.gif" height="250px" align="right" style="vertical-align:top">
+    <img src="img.gif" height="200px" align="right" style="vertical-align:top">
 
   * 👨‍🎓 Currently, a Ph.D. student at <a href="https://www.ust.ac.kr/eng.do"> University of Science and Technology (UST)</a> 🏛️.
   * 👨‍💻 Working as a researcher in Artificial Intelligence Center at Korea Institute of Science and Technology (KIST) 🏛️.
