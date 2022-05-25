@@ -12,7 +12,10 @@
   * 🔭 Interested in Deep Learning and its applications.
 </div>
 
-<img src="img.gif" height="250px" align="right">
+<br>
+<div>
+  <img src="img.gif" height="250px" align="right">
+</div>
 
 <br>
 <h3 align="left">Languages and Tools:</h3>
