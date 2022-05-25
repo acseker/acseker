@@ -7,6 +7,7 @@
 <br>
 <div> 
   <h3 align="left" >About Me:</h3>
+  
   * 👨‍🎓 Currently, a Ph.D. student at <a href="https://www.ust.ac.kr/eng.do"> University of Science and Technology (UST)</a> 🏛️.
   * 👨‍💻 Working as a researcher in Artificial Intelligence Center at Korea Institute of Science and Technology (KIST) 🏛️.
   * 🔭 Interested in Deep Learning and its applications.
