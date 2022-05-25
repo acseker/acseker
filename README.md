@@ -1,6 +1,6 @@
 <br>
-<div style="display: flex; justify-content: center;">
-  <img src="cover.gif" height="275px"; style="display:block; text-align:center">
+<div style="display: flex; justify-content: left;">
+  <img src="cover.gif" height="275px"; style="display:block">
 </div>
 
 
@@ -38,7 +38,9 @@
   </a>
 </p>
 
-<img src="img.gif" height="250px" align="right">
+
+<img src="img.gif" height="250px">
+
 
 <br>
 <h3 align="left">Github Stats:</h3>
