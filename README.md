@@ -55,9 +55,9 @@
     <a href="https://www.linkedin.com/in/acseker/">
         <img src="https://img.shields.io/badge/-@acseker-0077B5?style=for-the-badge&amp;labelColor=0077B5&amp;logo=LinkedIn&amp;link=https://www.linkedin.com/in/acseker/" alt="LinkedIn Badge">
     </a>
-    //<a href="https://acseker.github.io/PersonalDevFolio/">
-    //  <img src="https://img.shields.io/badge/Website-orange?style=for-the-badge">
-    //</a>
+    <!--<a href="https://acseker.github.io/PersonalDevFolio/">
+      <img src="https://img.shields.io/badge/Website-orange?style=for-the-badge">
+    </a>-->
     <img src="https://komarev.com/ghpvc/?username=acseker&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="acseker" />
 </p>
 
