@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ahmet Cagatay Seker — Ph.D. in AI-Robotics. Research on 3D reconstruction, novel view synthesis, and Gaussian Splatting.">
+  <title>Ahmet Cagatay Seker</title>
+  <link rel="icon" type="image/svg+xml" href="static/assets/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="static/css/styles.css">
+  <style>
+    /* Publication title links keep the normal text color */
+    .pub-list__link,
+    .pub-list__link:visited { color: inherit; text-decoration: none; }
+    .pub-list__link:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+
+    <!-- ============================== NAV ==============================
+         To add/remove/rename a nav item, edit BOTH the desktop list below
+         and the matching mobile list further down — keep them in sync.
+         data-section must match the id="" of the <section> it points to. -->
+    <header class="site-nav">
+      <div class="site-nav__row">
+        <a href="index.html" class="site-nav__brand">A. C. Seker</a>
+
+        <div class="site-nav__center">
+          <nav class="nav-pills" id="navPills" aria-label="Section navigation">
+            <a href="#about" class="nav-pill active" data-section="about">About</a>
+            <a href="#projects" class="nav-pill" data-section="projects">Projects</a>
+            <a href="#publications" class="nav-pill" data-section="publications">Publications</a>
+            <a href="#teaching" class="nav-pill" data-section="teaching">Teaching</a>
+            <a href="#awards" class="nav-pill" data-section="awards">Awards</a>
+            <a href="#education" class="nav-pill" data-section="education">Education</a>
+          </nav>
+
+          <button type="button" id="hamburgerBtn" class="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+              <line x1="4" y1="7" x2="20" y2="7"></line>
+              <line x1="4" y1="12" x2="20" y2="12"></line>
+              <line x1="4" y1="17" x2="20" y2="17"></line>
+            </svg>
+          </button>
+        </div>
+
+        <button type="button" id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+          <span class="theme-toggle__knob" id="toggleKnob">
+            <svg id="sunIcon" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#F5A623" stroke-width="2" stroke-linecap="round">
+              <circle cx="12" cy="12" r="4" fill="#F5A623" stroke="none"></circle>
+              <line x1="12" y1="1" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="23"></line>
+              <line x1="4.2" y1="4.2" x2="6.3" y2="6.3"></line>
+              <line x1="17.7" y1="17.7" x2="19.8" y2="19.8"></line>
+              <line x1="1" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="23" y2="12"></line>
+              <line x1="4.2" y1="19.8" x2="6.3" y2="17.7"></line>
+              <line x1="17.7" y1="6.3" x2="19.8" y2="4.2"></line>
+            </svg>
+            <svg id="moonIcon" width="10" height="10" viewBox="0 0 24 24" fill="#5B54A6" style="display:none;">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+      </div>
+
+      <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile section navigation">
+        <a href="#about" class="active" data-section="about">About</a>
+        <a href="#projects" data-section="projects">Projects</a>
+        <a href="#publications" data-section="publications">Publications</a>
+        <a href="#teaching" data-section="teaching">Teaching</a>
+        <a href="#awards" data-section="awards">Awards</a>
+        <a href="#education" data-section="education">Education</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- ============================== ABOUT ============================== -->
+      <section id="about" class="section section--about">
+        <div class="about">
+          <img src="static/assets/profile.png" alt="Portrait of Ahmet Cagatay Seker" class="avatar">
+
+          <div class="about__body">
+            <h1 class="about__name">Ahmet Cagatay Seker</h1>
+            <p class="about__role">Computer Vision Engineer</p>
+
+            <p class="about__bio">
+              I recently completed my Ph.D. in AI-Robotics at the University of Science and Technology (UST), where I worked as a research assistant at the Korea Institute of Science and Technology (KIST) in Seoul. My research focuses on computer vision, deep learning, 3D reconstruction, novel view synthesis, neural rendering, and 3D Gaussian Splatting.
+            </p>
+
+            <!-- Contact buttons: copy a line, change the href/label/icon to add one -->
+            <div id="aboutLinks" class="about__links">
+              <a href="mailto:acseker07@gmail.com" class="btn btn-project link-btn"><i class="fas fa-envelope"></i>Email</a>
+              <a href="https://linkedin.com/in/acseker" target="_blank" rel="noopener" class="btn btn-project link-btn"><i class="fab fa-linkedin"></i>LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================== PROJECTS ==============================
+           Each project is one .project-card block. Copy a whole block to add
+           a new project; delete one to remove it. The colored square uses
+           project.color as its background and project.initials as its text. -->
+      <section id="projects" class="section">
+        <h2 class="section__title">Projects</h2>
+        <div id="projectsList" class="project-list">
+
+          <div class="project-card">
+            <img src="static/images/street.jpeg" alt="Urban street scene photo next to its colorized 3D reconstruction" class="project-card__thumb">
+            <div class="project-card__body">
+              <div class="project-card__header">
+                <div class="project-card__title">High-Fidelity Street Scene Reconstruction</div>
+                <div class="project-card__period">2026</div>
+              </div>
+              <p class="project-card__desc">A 3D Gaussian Splatting pipeline for high-fidelity novel-view synthesis from forward-moving monocular street scenes. The approach combines frequency- and error-guided signals to better recover fine structural details that standard reconstruction methods tend to blur or lose, such as road markings, cracks, cables, and other thin boundaries.</p>
+              <div class="project-card__links">
+                <a href="#" class="btn btn-project project-btn"><i class="fas fa-globe"></i>Project</a>
+                <a href="#" class="btn btn-project project-btn"><i class="fas fa-file-pdf"></i>Paper</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="static/images/facial-expression.jpg" alt="Face photo next to its 3D point-cloud head mesh, front and side views" class="project-card__thumb">
+            <div class="project-card__body">
+              <div class="project-card__header">
+                <div class="project-card__title">Geometrically Accurate Head Avatar Reconstruction</div>
+                <div class="project-card__period">2025</div>
+              </div>
+              <p class="project-card__desc">A system for building animatable, photorealistic Gaussian head avatars from monocular head videos. It combines mesh rendering and Gaussian rendering to improve geometric accuracy and surface smoothness while preserving photorealistic appearance.</p>
+              <div class="project-card__links">
+                <a href="https://felizang.github.io/HeteroAvatar/" target="_blank" rel="noopener" class="btn btn-project project-btn"><i class="fas fa-globe"></i>Project</a>
+                <a href="https://doi.org/10.1109/ACCESS.2025.3543163" target="_blank" rel="noopener" class="btn btn-project project-btn"><i class="fas fa-file-pdf"></i>Paper</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="static/images/avatar.jpg" alt="Three rendered 3D Gaussian head avatar reconstructions" class="project-card__thumb">
+            <div class="project-card__body">
+              <div class="project-card__header">
+                <div class="project-card__title">Facial Expression Generation and Transfer</div>
+                <div class="project-card__period">2024</div>
+              </div>
+              <p class="project-card__desc">A procedural facial-expression space built for a 3D head-avatar system, which statistically models how blendshape weights vary across a population of faces. This lets expressions be generated and transferred across different identities in a consistent, controllable way and includes a GUI where a user can upload an image and directly select or apply expressions.</p>
+              <div class="project-card__links"></div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="static/images/expdate.jpeg" alt="Product packages with OCR bounding boxes detecting expiration dates" class="project-card__thumb">
+            <div class="project-card__body">
+              <div class="project-card__header">
+                <div class="project-card__title">Expiration Date Recognition on Product Packages</div>
+                <div class="project-card__period">2022</div>
+              </div>
+              <p class="project-card__desc">A generalized deep-learning framework that automatically detects, parses, and recognizes expiration dates directly from photos of full product packaging, with no manual cropping or alignment. It supports 13 date formats and remains reliable under real-world challenges such as blur, glare, complex backgrounds, distorted text, and multiple printed dates.</p>
+              <div class="project-card__links">
+                <a href="https://felizang.github.io/expdate/" target="_blank" rel="noopener" class="btn btn-project project-btn"><i class="fas fa-globe"></i>Project</a>
+                <a href="https://doi.org/10.1016/j.eswa.2022.117310" target="_blank" rel="noopener" class="btn btn-project project-btn"><i class="fas fa-file-pdf"></i>Paper</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="static/images/android.jpeg" alt="Fruit Classification Android app screenshot classifying a strawberry" class="project-card__thumb">
+            <div class="project-card__body">
+              <div class="project-card__header">
+                <div class="project-card__title">Fruit Recognition Android App</div>
+                <div class="project-card__period">2021</div>
+              </div>
+              <p class="project-card__desc">A deep-learning fruit-recognition model trained on a self-collected, multi-viewpoint image dataset to ensure robustness to variations in viewing angle, lighting, and background. The model is deployed in an Android application, enabling real-time recognition through the device's built-in camera.</p>
+              <div class="project-card__links">
+                <a href="https://youtu.be/UZueoEcnD28" target="_blank" rel="noopener" class="btn btn-project project-btn"><i class="fab fa-youtube"></i>Video</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="static/images/web.jpeg" alt="Animal Recognition website showing a grid of animal photos and a prediction result" class="project-card__thumb">
+            <div class="project-card__body">
+              <div class="project-card__header">
+                <div class="project-card__title">Animal Recognition Web App</div>
+                <div class="project-card__period">2020</div>
+              </div>
+              <p class="project-card__desc">An image-classification model covering a range of common animal categories, served through a lightweight Flask web application. Users upload a photo and instantly receive the predicted animal class, making the model easy to demo and interact with.</p>
+              <div class="project-card__links">
+                <a href="https://youtu.be/e06pn4GVS44" target="_blank" rel="noopener" class="btn btn-project project-btn"><i class="fab fa-youtube"></i>Video</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="static/videos/elevator.gif" alt="Three-floor PLC-controlled elevator prototype in operation" class="project-card__thumb project-card__thumb--gif">
+            <div class="project-card__body">
+              <div class="project-card__header">
+                <div class="project-card__title">Three-Floor PLC-Controlled Elevator Prototype</div>
+                <div class="project-card__period">2015</div>
+              </div>
+              <p class="project-card__desc">A fully functional three-floor elevator prototype built end to end, from ladder-logic programming for the PLC controller to custom PCB layouts designed in Proteus and the physical assembly and testing of the complete electromechanical system.</p>
+              <div class="project-card__links"></div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ============================== PUBLICATIONS ============================== -->
+      <section id="publications" class="section">
+        <h2 class="section__title">Publications</h2>
+        <div id="publicationsList" class="pub-list">
+
+          <div>
+            <div class="pub-list__title"><a class="pub-list__link" href="index.html" target="_blank" rel="noopener">FreqGS: Frequency-Guided Gaussian Splatting for High-Fidelity Novel View Synthesis from Monocular Street Scenes</a></div>
+            <div class="pub-list__meta"><b>A. C. Seker</b>, S. C. Ahn &middot; Manuscript under review, 2026</div>
+          </div>
+
+          <div>
+            <div class="pub-list__title"><a class="pub-list__link" href="https://doi.org/10.1109/ACCESS.2025.3543163" target="_blank" rel="noopener">HeteroAvatar: Generation of Gaussian Head Avatars with Correct Geometry Using Hetero Rendering</a></div>
+            <div class="pub-list__meta"><b>A. C. Seker</b>, J. S. Kang, S. C. Ahn &middot; IEEE Access, vol. 13, pp. 33768&ndash;33782, 2025</div>
+          </div>
+
+          <div>
+            <div class="pub-list__title"><a class="pub-list__link" href="https://openaccess.thecvf.com/content/ICCV2023W/RHWC/html/Jang_VSCHH_2023_A_Benchmark_for_the_View_Synthesis_Challenge_of_ICCVW_2023_paper.html" target="_blank" rel="noopener">VSCHH 2023: A Benchmark for the View Synthesis Challenge of Human Heads</a></div>
+            <div class="pub-list__meta">ICCV Workshop (Competition Participant), 2023</div>
+          </div>
+
+          <div>
+            <div class="pub-list__title"><a class="pub-list__link" href="https://doi.org/10.1016/j.eswa.2022.117310" target="_blank" rel="noopener">A Generalized Framework for Recognition of Expiration Dates on Product Packages Using Fully Convolutional Networks</a></div>
+            <div class="pub-list__meta"><b>A. C. Seker</b>, S. C. Ahn &middot; Expert Systems with Applications, vol. 203, p. 117310, 2022</div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ============================== TEACHING ============================== -->
+      <section id="teaching" class="section">
+        <h2 class="section__title">Teaching</h2>
+        <div id="teachingList" class="row-list">
+
+          <div class="row-list__item">
+            <div>
+              <div class="row-list__title">Communication &amp; Electrical Machines Lab</div>
+              <div class="row-list__subtitle">Teaching Assistant, Mevlana University</div>
+            </div>
+            <div class="row-list__meta">Spring 2016</div>
+          </div>
+
+          <div class="row-list__item">
+            <div>
+              <div class="row-list__title">Electronics &amp; Microcontroller Lab</div>
+              <div class="row-list__subtitle">Teaching Assistant, Mevlana University</div>
+            </div>
+            <div class="row-list__meta">Fall 2015</div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ============================== AWARDS ============================== -->
+      <section id="awards" class="section">
+        <h2 class="section__title">Honors &amp; Awards</h2>
+        <div id="awardsList" class="row-list">
+
+          <div class="row-list__item">
+            <div>
+              <div class="row-list__title">Academic Excellence Award</div>
+              <div class="row-list__subtitle">Korea Institute of Science and Technology (KIST)</div>
+            </div>
+            <div class="row-list__meta">Aug 2026</div>
+          </div>
+
+          <div class="row-list__item">
+            <div>
+              <div class="row-list__title">Outstanding Scholar, National Strategic Technology Scholarship Program</div>
+              <div class="row-list__subtitle">University of Science and Technology (UST)</div>
+            </div>
+            <div class="row-list__meta">Jul 2025</div>
+          </div>
+
+          <div class="row-list__item">
+            <div>
+              <div class="row-list__title">Full Ph.D. Scholarship</div>
+              <div class="row-list__subtitle">University of Science and Technology (UST)</div>
+            </div>
+            <div class="row-list__meta">Mar 2020</div>
+          </div>
+
+          <div class="row-list__item">
+            <div>
+              <div class="row-list__title">Top-Ranked Graduate, Faculty of Engineering</div>
+              <div class="row-list__subtitle">Mevlana University</div>
+            </div>
+            <div class="row-list__meta">Aug 2015</div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ============================== EDUCATION ============================== -->
+      <section id="education" class="section section--last">
+        <h2 class="section__title">Education</h2>
+        <div id="educationList" class="row-list">
+
+          <div class="row-list__item">
+            <div>
+              <div class="row-list__title">Ph.D. in AI-Robotics</div>
+              <div class="row-list__subtitle">University of Science and Technology (UST), Seoul, South Korea</div>
+            </div>
+            <div class="row-list__meta">Mar 2020 &ndash; Aug 2026</div>
+          </div>
+
+          <div class="row-list__item">
+            <div>
+              <div class="row-list__title">M.Sc. in Electronics &amp; Communication Engineering</div>
+              <div class="row-list__subtitle">Istanbul Technical University (ITU), Istanbul, Turkiye</div>
+            </div>
+            <div class="row-list__meta">Feb 2017 &ndash; Jun 2019</div>
+          </div>
+
+          <div class="row-list__item">
+            <div>
+              <div class="row-list__title">B.Sc. in Electrical &amp; Electronics Engineering</div>
+              <div class="row-list__subtitle">Mevlana University, Konya, Turkiye</div>
+            </div>
+            <div class="row-list__meta">Sep 2011 &ndash; Jun 2015</div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ============================== FOOTER ============================== -->
+    <footer class="site-footer">
+      &copy; 2026 Ahmet Cagatay Seker
+    </footer>
+
+    <!-- ============================== SCROLL CONTROLS ============================== -->
+    <div class="scroll-controls">
+      <button type="button" id="scrollTopBtn" class="btn btn-about scroll-btn" aria-label="Scroll to top">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 19V5"></path><path d="M5 12l7-7 7 7"></path>
+        </svg>
+      </button>
+      <button type="button" id="scrollBottomBtn" class="btn btn-about scroll-btn" aria-label="Scroll to bottom">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 5v14"></path><path d="M5 12l7 7 7-7"></path>
+        </svg>
+      </button>
+    </div>
+
+  </div>
+
+  <script src="static/js/script.js"></script>
+</body>
+</html>
