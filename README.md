@@ -1,7 +1,5 @@
 # Hi, I'm Ahmet Cagatay Seker 👋
 
-### Computer Vision Researcher & Engineer | Ph.D. in AI & Robotics
-
 I work on computer vision, 3D reconstruction, neural rendering, and deep learning, focusing on developing efficient and high-fidelity visual reconstruction systems.
 
 **Areas of Interest**
