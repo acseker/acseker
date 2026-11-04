@@ -1,33 +1,24 @@
-# Personal Webpage
+# Hi, I'm Ahmet Cagatay Seker 👋
 
-A single-page personal/academic webpage: About, Projects, Publications, Teaching Honors & Awards, and Education. Built with plain HTML, CSS, and vanilla JavaScript —
-no build step, no dependencies beyond a Google Fonts stylesheet.
+### Computer Vision Researcher & Engineer | Ph.D. in AI & Robotics
 
-## Folder Structure
+I work on computer vision, 3D reconstruction, neural rendering, and deep learning, focusing on developing efficient and high-fidelity visual reconstruction systems.
 
-```
-.
-├── index.html
-├── README.md
-└── static/
-    ├── assets/     # misc downloadable files (CV PDF, etc.)
-    ├── css/
-    │   └── styles.css
-    ├── images/     # project thumbnails / photos
-    ├── js/
-    │   └── script.js
-    └── videos/     # project demo videos
-```
+**Areas of Interest**
+- 3D Gaussian Splatting (3DGS) & NeRF
+- 3D Reconstruction & Novel View Synthesis
+- Neural Rendering & 3D Avatars
+- Deep Learning & Computer Vision
 
-`index.html` is the only page. It links to `static/css/styles.css` and
-`static/js/script.js` by relative path, so the folder can be moved or renamed
-as a whole without breaking anything, as long as those two files stay in
-place relative to it.
-
-The `assets/`, `images/`, and `videos/` folders are provided as landing spots
-for real project media (screenshots, demo clips, a downloadable CV, etc.).
-
-## License
-
-Feel free to use it as a template for
-your own webpage, but please don't reuse the biographical content.
+---
+<p align="center">
+  <a href="https://acseker.github.io/acseker/">
+    <img src="https://img.shields.io/badge/Website-2ea44f?style=for-the-badge" alt="Website"/>
+  </a>
+  <a href="https://www.linkedin.com/in/acseker/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn"/>
+  </a>
+  <a href="https://scholar.google.com/citations?user=ojer3f4AAAAJ&hl=en&oi=ao">
+    <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge" alt="Google Scholar"/>
+  </a>
+</p>
